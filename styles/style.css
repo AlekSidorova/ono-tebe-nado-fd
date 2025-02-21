@@ -95,7 +95,9 @@
   margin-left: 107px;
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
+  color: #fff;
   font-weight: 500;
+  text-transform: uppercase;
   background: transparent;
 }
 
@@ -116,7 +118,7 @@
 
 .lots__card-list-item {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -131,24 +133,20 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
